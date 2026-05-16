@@ -1,0 +1,24 @@
+# GPUMind Configuration
+# Copy to config.yaml and edit
+
+# Wallet address for mining rewards
+wallet: "keryx:qr0fkk7umpu439fep5790aff704k4c6k3x06y78n48kwxre0f6xnym5pg7d38"
+
+# Telegram notifications
+telegram_bot_token: ""
+telegram_chat_id: ""
+
+# API server
+api_port: 8500
+
+# Decision parameters
+check_interval: 300       # seconds between checks
+min_mode_duration: 600    # minimum seconds in a mode before switching
+mining_priority: 0.6      # 0-1, higher = prefer mining over inference
+
+# Inference threshold
+inference_queue_threshold: 5   # requests before switching to inference
+
+# GPU IDs to manage (from nvidia-smi)
+gpu_ids:
+  - 0

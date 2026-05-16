@@ -1,0 +1,10 @@
+# Core
+numpy>=1.24.0
+pyyaml>=6.0
+
+# Optional (uncomment as needed)
+# torch>=2.0.0          # for advanced ML models
+# fastapi>=0.100.0      # for full REST API
+# uvicorn>=0.23.0       # for full REST API
+# prometheus-client     # for Prometheus metrics export
+# telebot               # for Telegram bot (alternative to raw API)
